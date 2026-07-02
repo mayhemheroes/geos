@@ -1,0 +1,6 @@
+project: geos
+target: fuzz_geo2
+cmds:
+  - cmd: /mayhem/fuzz_geo2
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_geo2.dict
